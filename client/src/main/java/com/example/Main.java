@@ -125,5 +125,6 @@ public class Main {
                     break;
             }
         }
+        s.close;
     }
 }
