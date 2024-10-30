@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Inserire username");
         while(ins){
             out.writeBytes("" + input.nextLine() + '\n');
-            if(in.readLine().equals("!"))
+            if(!in.readLine().equals("!"))
                 ins = false;
             else
                 System.out.println("nome già inserito");
